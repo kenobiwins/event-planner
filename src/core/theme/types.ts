@@ -1,17 +1,28 @@
-export type colorsMap = {
-  cardBg: string
+type colorsMap = {
   mainColor: string
   mainText: string
   secondaryText: string
   accent: string
+  text: string
+  divider: string
+  placeholder: string
+  white: string
+  chips: {
+    low: string
+    medium: string
+    hight: string
+  }
 }
 
-export type fontsMap = {
-  medium: string
-  semiBold: string
+type opacityMap = {
+  white: (opacity: number) => string
 }
 
-export type pxsMap = {
+type fontsMap = {
+  mainTypography: string
+}
+
+type pxsMap = {
   x0: number
   x1: number
   x2: number
@@ -24,8 +35,25 @@ export type pxsMap = {
   x9: number
 }
 
-export type themeType = {
+type breakpointsMap = {
+  mobile: number
+  tablet: number
+  desktop: number
+}
+
+type mediaRulesMap = {
+  up: (breakpoint: number, vertical?: boolean) => string
+  down: (breakpoint: number, vertical?: boolean) => string
+  between: (breakpointMin: number, breakpointMax: number, vertical?: boolean) => string
+}
+
+type themeType = {
   color: colorsMap
   font: fontsMap
   px: pxsMap
+  breakpoint: breakpointsMap
+  mediaRule: mediaRulesMap
+  opacityColor: opacityMap
 }
+
+export type { breakpointsMap, colorsMap, fontsMap, mediaRulesMap, pxsMap, themeType, opacityMap }

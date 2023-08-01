@@ -1,9 +1,23 @@
-import { colorsMap } from './types'
+import { colorsMap, opacityMap } from './types'
 
-export const colors: colorsMap = {
-  cardBg: 'linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%)',
+const colors: colorsMap = {
   mainColor: '#EBD8FF',
-  mainText: '#EBD8FF',
-  secondaryText: '#373737',
-  accent: '#5CD3A8',
+  mainText: '#1C1B1F',
+  secondaryText: '#49454F',
+  text: '#3F3F3F',
+  divider: '#ACA7C3',
+  accent: '#7B61FF',
+  placeholder: '#888888',
+  white: '#FFFFFF',
+  chips: {
+    low: '#6BD475',
+    medium: '#E2A300',
+    hight: '#FF2B77',
+  },
 }
+
+const opacityColors: opacityMap = {
+  white: (opacity: number) => `rgba(255, 255, 255, ${opacity})`,
+}
+
+export { colors, opacityColors }
