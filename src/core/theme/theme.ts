@@ -1,10 +1,10 @@
 import { themeType } from './types'
-import { breakpoints, mediaRules, colors, pxs, fonts, opacityColors } from '.'
+import { colors, fonts, pxs, breakpoints, mediaRules, opacityColors } from '.'
 
 export const theme: themeType = {
   px: pxs,
-  font: fonts,
   color: colors,
+  font: fonts,
   breakpoint: breakpoints,
   mediaRule: mediaRules,
   opacityColor: opacityColors,

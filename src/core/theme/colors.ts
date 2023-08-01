@@ -9,6 +9,7 @@ const colors: colorsMap = {
   accent: '#7B61FF',
   placeholder: '#888888',
   white: '#FFFFFF',
+  black:'#000000',
   chips: {
     low: '#6BD475',
     medium: '#E2A300',

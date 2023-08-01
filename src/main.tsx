@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
 import '@core/i18n'
+
+import App from './App.tsx'
+import { ThemeManagerProvider } from '@core/theme/ThemeManager.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <App />
+    <ThemeManagerProvider>
+      <App />
+    </ThemeManagerProvider>
   </React.StrictMode>,
 )

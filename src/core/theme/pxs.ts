@@ -11,4 +11,7 @@ export const pxs: pxsMap = {
   x7: 28,
   x8: 32,
   x9: 36,
+  x10: 40,
+  x11: 44,
+  x12: 48,
 }

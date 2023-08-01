@@ -7,6 +7,7 @@ type colorsMap = {
   divider: string
   placeholder: string
   white: string
+  black: string
   chips: {
     low: string
     medium: string
@@ -33,6 +34,9 @@ type pxsMap = {
   x7: number
   x8: number
   x9: number
+  x10: number
+  x11: number
+  x12: number
 }
 
 type breakpointsMap = {

@@ -1,3 +1,5 @@
+import { TitleH2 } from '@core/kit/text'
+
 import { useTranslation } from 'react-i18next'
 
 function App() {
@@ -5,7 +7,7 @@ function App() {
 
   return (
     <>
-      <h2>{t('title')}</h2>
+      <TitleH2>{t('title')}</TitleH2>
     </>
   )
 }
