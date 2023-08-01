@@ -16,7 +16,7 @@ const Title = styled.p(({ theme }) => ({
   color: theme.color.mainText,
 }))
 
-const Body = styled.p<{ color: string }>(({ theme, color }) => ({
+const Body = styled.p<{ color?: string }>(({ theme, color }) => ({
   fontFamily: theme.font.mainTypography,
   fontWeight: 500,
   fontSize: '14px',
@@ -24,7 +24,7 @@ const Body = styled.p<{ color: string }>(({ theme, color }) => ({
   color: color ? color : theme.color.black,
 }))
 
-const Caption = styled.p<{ color: string }>(({ theme, color }) => ({
+const Caption = styled.p<{ color?: string }>(({ theme, color }) => ({
   fontFamily: theme.font.mainTypography,
   fontWeight: 400,
   fontSize: '14px',

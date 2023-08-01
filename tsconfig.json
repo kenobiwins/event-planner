@@ -13,7 +13,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
@@ -26,8 +26,8 @@
       "@components/*": ["components/*"],
       "@core/*": ["core/*"],
       "@store/*": ["core/store/*"],
-      "@theme/*":["core/theme/*"],
-      "@hooks/*":["core/hooks/*"]
+      "@theme/*": ["core/theme/*"],
+      "@hooks/*": ["core/hooks/*"],
     }
   },
   "include": ["src", "src/custom.d.ts"],

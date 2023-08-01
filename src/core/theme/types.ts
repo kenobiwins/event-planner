@@ -11,7 +11,8 @@ type colorsMap = {
   chips: {
     low: string
     medium: string
-    hight: string
+    high: string
+    [key: string]: string
   }
 }
 

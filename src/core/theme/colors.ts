@@ -13,7 +13,7 @@ const colors: colorsMap = {
   chips: {
     low: '#6BD475',
     medium: '#E2A300',
-    hight: '#FF2B77',
+    high: '#FF2B77',
   },
 }
 

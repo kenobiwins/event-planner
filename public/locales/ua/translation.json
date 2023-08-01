@@ -1,3 +1,17 @@
 {
-  "title": "Привіт"
+  "title": "Привіт",
+  "priority-chips": {
+    "low": "низький",
+    "medium": "середній",
+    "high": "високий"
+  },
+  "chips": {
+    "art": "мистецтво",
+    "music": "музика",
+    "business": "бізнес",
+    "conference": "конференція",
+    "workshop": "семінар",
+    "party": "вечірка",
+    "sport": "спорт"
+  }
 }

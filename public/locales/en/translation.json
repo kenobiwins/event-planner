@@ -1,3 +1,17 @@
 {
-  "title": "Hello"
+  "title": "Hello",
+  "priority-chips": {
+    "low": "low",
+    "medium": "medium",
+    "high": "high"
+  },
+  "chips":{
+    "art":"art",
+    "music":"music",
+    "business":"business",
+    "conference":"conference",
+    "workshop":"workshop",
+    "party":"party",
+    "sport":"sport"
+  }
 }
