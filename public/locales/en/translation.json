@@ -5,7 +5,7 @@
     "medium": "medium",
     "high": "high"
   },
-  "chips":{
+  "categories":{
     "art":"art",
     "music":"music",
     "business":"business",

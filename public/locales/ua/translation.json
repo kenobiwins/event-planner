@@ -5,7 +5,7 @@
     "medium": "середній",
     "high": "високий"
   },
-  "chips": {
+  "categories": {
     "art": "мистецтво",
     "music": "музика",
     "business": "бізнес",

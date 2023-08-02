@@ -1,5 +1,5 @@
-import { Priority, Categories } from './constants'
+import { Priority, Categories, IconNames } from './constants'
 import { PriorityChips } from './types'
 
 export type { PriorityChips }
-export { Priority, Categories }
+export { Priority, Categories, IconNames }
