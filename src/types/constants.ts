@@ -14,6 +14,17 @@ enum Categories {
   SPORT = 'sport',
 }
 
+enum SortBy {
+  NAME = 'name',
+  DATE = 'date',
+  PRIORITY = 'priority',
+}
+
+enum SortOrder {
+  ASC = 'asc',
+  DESC = 'desc',
+}
+
 enum IconNames {
   ARROW_DOWN = 'arrow-down',
   ARROW_LEFT = 'arrow-left',
@@ -27,4 +38,9 @@ enum IconNames {
   SORT = 'sort',
 }
 
-export { Priority, Categories, IconNames }
+enum IconPosition {
+  LEFT = 'left',
+  RIGHT = 'right',
+}
+
+export { Priority, Categories, IconNames, IconPosition, SortBy, SortOrder }

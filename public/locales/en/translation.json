@@ -13,5 +13,12 @@
     "workshop":"workshop",
     "party":"party",
     "sport":"sport"
-  }
+  },
+  "sort-by":{
+    "name":"name",
+    "date":"date",
+    "priority":"priority"
+  },
+  "filter":"category",
+  "sort":"sort by"
 }

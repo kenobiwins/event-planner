@@ -8,12 +8,12 @@ const TitleH2 = styled.h2(({ theme }) => ({
   color: theme.color.text,
 }))
 
-const Title = styled.p(({ theme }) => ({
+const Title = styled.p<{ color?: string }>(({ theme, color }) => ({
   fontFamily: theme.font.mainTypography,
   fontWeight: 500,
   fontSize: theme.px.x4 + 'px',
   lineHeight: theme.px.x6 + 'px',
-  color: theme.color.mainText,
+  color: color ? color : theme.color.mainText,
 }))
 
 const Body = styled.p<{ color?: string }>(({ theme, color }) => ({
